@@ -1,0 +1,112 @@
+/* ECC css file --------------- do not remove this */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the body at least as tall as the viewport */
+  }
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-nav a {
+  margin-right: 15px;
+  font-weight: bold; /* Make navbar elements bold */
+  color: #007bff; /* Set navbar elements color to blue */
+}
+
+.navbar-nav a:hover {
+  color: #0056b3; /* Change color on hover */
+}
+
+.footer {
+    background-color: #dfe1e3;
+    padding: 20px 0;
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+  
+.social-icons a {
+    color: #007bff;
+    margin: 0 10px;
+  }
+  
+.social-icons a:hover {
+    color: #0056b3;
+  }
+
+  .copywrite {
+    margin-bottom: 10px;
+  }
+  
+  .copywrite p {
+    margin: 0;
+    font-size: 14px;
+  }
+          
+
+  .banner {
+    background-image: url('https://149842022.v2.pressablecdn.com/pixova-lite/wp-content/themes/pixova-lite/layout/images/header-bg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .banner-heading {
+    font-size: 36px;
+  }
+  
+  .banner-line {
+    width: 50px;
+    height: 2px;
+    background-color: #ffce55;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  .banner-description {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-bottom: 35px;
+  }
+  
+  .contact-section {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar, .footer, .about-section {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .creative-item {
+    margin-bottom: 30px;
+}
+
+.creative-item .description {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.creative-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .creative-item .description {
+        padding: 10px;
+    }
+}
+
+
+.separator {
+  border: none;
+  border-top: 10px solid #ddd; /* Gray color */
+  margin: 20px 0; /* Adjust space between the sections */
+}
